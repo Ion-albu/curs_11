@@ -48,14 +48,20 @@ salut_creator()
 # Exercițiul 5: CLOSURE - Creați un counter simplu
 # Funcția să returneze o funcție internă care numără de câte ori a fost apelată
 def creeaza_counter():
+    count = 0
+    def incrementare():
+        count += 1
+        return count
+    return incrementare
     # CODUL TĂU AICI
-    pass
+
+    
 
 # Testare:
-# counter1 = creeaza_counter()
-# print(counter1())  # Ar trebui să afișeze 1
-# print(counter1())  # Ar trebui să afișeze 2
-# print(counter1())  # Ar trebui să afișeze 3
+counter1 = creeaza_counter()
+print(counter1())  # Ar trebui să afișeze 1
+print(counter1())  # Ar trebui să afișeze 2
+print(counter1())  # Ar trebui să afișeze 3
 
 
 # Exercițiul 6: CLOSURE - Creator de funcții de înmulțire
