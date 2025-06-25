@@ -31,11 +31,18 @@ print(numere_mari)
 # Funcția principală să se numească "salut_creator"
 # Funcția internă să se numească "spune_salut" și să printeze "Bună ziua!"
 def salut_creator():
+    def spune_salut():
+        print("Buna ziua")
+
+salut_creator()
+
+
+   
     # CODUL TĂU AICI
-    pass
+    
 
 # Testare:
-# salut_creator()  # Ar trebui să afișeze "Bună ziua!"
+ # Ar trebui să afișeze "Bună ziua!"
 
 
 # Exercițiul 5: CLOSURE - Creați un counter simplu
