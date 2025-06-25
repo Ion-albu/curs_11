@@ -23,8 +23,8 @@ print(este_par(5))      # Ar trebui să afișeze False
 numere = [5, 12, 8, 15, 3, 20, 7]
 
 # CODUL TĂU AICI - folosește filter și lambda
-# numere_mari = 
-# print(numere_mari)
+numere_mari = list(filter(lambda x: x>10, numere))
+print(numere_mari)
 
 
 # Exercițiul 4: Creați o funcție simplă care conține o funcție internă
