@@ -11,11 +11,11 @@ print(adunare(10, 2))   # Ar trebui să afișeze 12
 
 
 # Exercițiul 2: Creați o funcție lambda care verifică dacă un număr este par
-este_par = None  # ÎNLOCUIEȘTE None cu lambda function
+este_par = lambda x: x % 2 ==0  # ÎNLOCUIEȘTE None cu lambda function
 
 # Testare:
-# print(este_par(4))      # Ar trebui să afișeze True
-# print(este_par(5))      # Ar trebui să afișeze False
+print(este_par(4))      # Ar trebui să afișeze True
+print(este_par(5))      # Ar trebui să afișeze False
 
 
 # Exercițiul 3: Folosiți lambda cu filter pentru a găsi numerele mari
