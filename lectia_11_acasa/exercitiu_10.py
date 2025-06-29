@@ -7,7 +7,7 @@ Exemplu: Pentru numele "Ana", vârsta 32 și orașul "București" rezultatul va 
 # CODUL TĂU VINE MAI JOS:
 # print("Ex 10:")
 def task_10(nume, varsta,oras = "Necunoscut"):
-    return f"Nume: {nume}, varsta: {varsta}, Orasul :{oras}"
+    return f"Nume: {nume}, varsta: {varsta}, Orasul:{oras}"
 
 
 nume = input("Dati un nume: ")
