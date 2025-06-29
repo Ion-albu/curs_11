@@ -6,7 +6,7 @@ Exemplu: Pentru string-ul "test" rezultatul va fi "tset"
 # CODUL TĂU VINE MAI JOS:
 # print("Ex 16:")
 def task_16(string):
-    return string[::-3]
+    return string[::-1]
                 
     
 
