@@ -1,0 +1,14 @@
+"""
+Task: Creați o funcție cu numele "task_16" care acceptă un string și returnează același string cu literele inversate.
+Exemplu: Pentru string-ul "test" rezultatul va fi "tset"
+"""
+
+# CODUL TĂU VINE MAI JOS:
+# print("Ex 16:")
+def task_16(string):
+    return string[::-1]
+                
+    
+
+str = input("Dati un string: ")
+print(task_16(str))
