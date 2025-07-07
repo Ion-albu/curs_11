@@ -15,6 +15,10 @@ class Nrperfect:
             if self.number % i == 0:
                 self.divizori.append(i) 
 
+    def isperfect(self):
+        self.cauta_numere()
+        
+
     def afiseaza_nr(self):
         print(f"numarul perfect este: {self.number} iar divizorii lui sunt: {self.divizori}")
 
