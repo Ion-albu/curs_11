@@ -15,6 +15,8 @@ class Calculator:
             return catul
         else:
             return f"nu se face impartirea la 0"
+    def incercam(self,a,b):
+        return Calculator.impartirea(a,b)
     @staticmethod
     def inmulteste(a,b):
         produsul = a * b
@@ -23,3 +25,5 @@ print(f"Suma este: {Calculator.aduna(3,3)}")
 print(f"Diferenta este: {Calculator.scade(10,5)}")
 print(f"Catul este: {Calculator.impartirea(8,0)}")
 print(f"produsul este: {Calculator.inmulteste(3,3)}")
+m = Calculator()
+print(m.incercam(8,2))
