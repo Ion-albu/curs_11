@@ -14,11 +14,14 @@ class Om():
     def __str__(self):
         return f"Numele: {self.nume}, Data de nastere: {self.data_nast}, Adresa de locuinta: {self.adresa}, Inaltimea: {self.inaltime}"
     
+    def __repr__(self):
+        return f"Om = (name='{self.nume}', Data de nastere='{self.data_nast}', Adresa de locuinta='{self.adresa}', Inaltimea='{self.inaltime}')"
+    
 
 om1 = Om("Ion", 1995, "Chiscareni", 179)
 om2 = Om("Sorin", 1996, "Balti", 180)
 
 print(om1)
-om1.se_muta("saliste")
+om1.se_muta("Saliste")
 print(om1.adresa)
-print(om1)
+print(repr(om1))
