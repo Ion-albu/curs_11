@@ -12,7 +12,7 @@ class Pisica(Animal):
     def zgaraie(self):
         return "eu zgarai"
     def descriere(self):
-        return f"numele: {self.nume} are varsta de {self.varsta} si greutatea de {self.greutate} kg"
+        return f"{self.nume} are varsta de {self.varsta} si greutatea de {self.greutate} kg"
     def __str__(self):
         return f"numele:{self.nume}, varsta:{self.varsta}, greutatea {self.greutate}"
 obj_pisica = Pisica("tom", 15, 20, "alba")
