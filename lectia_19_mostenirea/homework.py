@@ -71,7 +71,7 @@ class Motorcycle(Vehicle):
         super().__init__(brand,model,year)
         self.engine_capacity = engine_capacity
         self.has_sidecar = has_sidecar
-        has_sidecar = bool
+       
 
     def get_info(self):
         sidecar_text = "are atas" if self.has_sidecar else "fara atas"
